@@ -4,11 +4,11 @@ import subprocess
 from sqlplus_commando import SqlplusCommando
 
 TARGET_FILE="/home/karthikeyankrishnasw/USERSFILE.sql"
-ADMIN_USER="karthikeyan"
-ADMIN_PASS="ficodatabase"
+ADMIN_USER="*****"
+ADMIN_PASS="*****"
 SID="ORCL"
 PROTO="TCP"
-HOSTNAME="oracle-karthik-latest.cahktit1ztzu.us-west-2.rds.amazonaws.com"
+HOSTNAME="******"
 PORT="1521"
 USERS="/home/karthikeyankrishnasw/properties.txt"
 
