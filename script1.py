@@ -22,7 +22,7 @@ for i in var:
         PASS=j[1]
         str1 = "create user %s identified by %s profile ORA_STIG_PROFILE default tablespace users quota unlimited on users temporary tablespace temp password expire;" % (USER,PASS)
         str2 = "grant DBA to %s with admin option;" % (USER)
-        sqlplus = SqlplusCommando(hostname=HOSTNAME, database=, username=ADMIN_USER, password=ficodatabase)
+        sqlplus = SqlplusCommando(hostname=HOSTNAME, database=SID, username=ADMIN_USER, password=ficodatabase)
         result1 = sqlplus.run_query("%s" % str1)
         result2 = sqlplus.run_query("%s" % str2)
         print result1
