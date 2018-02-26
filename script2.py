@@ -16,7 +16,6 @@ open(TARGET_FILE, "w").close()
 with open(USERS, r) as f:
 	var = f.readlines()
 for i in var:
-	if not i.startswith("#"):
         j=i.split(":")
         USER=j[0]
         PASS=j[1]
